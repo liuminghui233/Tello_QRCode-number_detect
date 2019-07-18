@@ -22,7 +22,7 @@ def mathc_img(frame, Target, value):
 
 
 def number_detect(frame):
-    Target = [r"D:\Tello_QR_code\tpl\tpl4.jpg", r"D:\Tello_QR_code\tpl\tpl5.jpg", r"D:\Tello_QR_code\tpl\tpl6.jpg"]
+    Target = [r"\tpl\tpl1.jpg", r"\tpl\tpl2.jpg", r"\tpl\tpl3.jpg"] # 若报错，可替换为绝对路径
     value = 0.7
     for i in range(0, 3):
         flag = mathc_img(frame, Target[i], value)
